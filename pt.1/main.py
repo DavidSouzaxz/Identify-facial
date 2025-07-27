@@ -1,5 +1,9 @@
 import mediapipe as mp
+import os
+import numpy as np
+import face_recognition
 import cv2
+
 
 webcam = cv2.VideoCapture(0)
 
